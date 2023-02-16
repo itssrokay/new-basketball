@@ -1,0 +1,62 @@
+@font-face {
+
+    src: url("CursedTimerUlil-Aznm.ttf");
+
+    font-family: Corleone;
+
+}
+body {
+     
+    margin: 0;
+    text-align: center;
+    background: grey;
+
+}
+
+
+.container {
+    padding-bottom: 60px;
+    height: 300px;
+    width: 80%;
+   margin: 50px auto 80px auto;
+    border: 3px solid #E6DBDB;
+  
+    display: flex;
+    justify-content: space-around; 
+    font-size: 40px;
+    background: #003459;
+}
+.score{
+
+      
+        background: #0a0001;
+    height: 120px;
+    width: 170px;
+    font-size: 90px;
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: red;
+padding-top:30px;
+   font-family: Corleone;
+    
+}
+.name{
+font-family: 'Orbitron', sans-serif;
+font-weight: bolder;
+ margin-bottom: 10px;
+ color: #E6DBDB
+
+}
+button{
+    height: 45px;
+    border-radius: 4px;
+  font-family: Corleone;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #003459;
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+}
